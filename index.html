@@ -1,8 +1,62 @@
 <!DOCTYPE html>
 <html>
+<!-- Has current queue, and search box -->
     <head>
-      <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+    <title></title>
       <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
+    <body>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <a class="brand" href="#">TrackRequest</a>
+            <ul class="nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#">User</a></li>
+              <li><a href="music.html">Music</a></li>
+              <li><a href="signin.html">Sign In</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="search-bar span4 ">
+            <form class="navbar-search pull-left">
+              <input type="text" class="search-query" placeholder="Search">
+            </form>
+        </div>
+
+        <div class="">
+            <!-- padding -->
+        </div>
+
+
+        <div class="current-song-queue">
+            <table class="table table-striped span4 ">
+                <tr>
+                    <th>Song Name</th>
+                    <th>Artist</th>
+                    <th>Album</th>
+                    <th>Username</th>
+                </tr>
+
+                <tr><!-- input from server -->
+                    <td>Fatty Boom Boom</td>
+                    <td>Die Antwoord</td>
+                    <td> - </td>
+                    <td>@Katsa</td>
+
+                </tr>
+
+                <tr><!-- input from server -->
+                    <td>Three Little Birds</td>
+                    <td>Bob Marley</td>
+                    <td> - </td>
+                    <td>@Katsa</td>
+
+                </tr>
+            </table>
+        </div>
+
+
+    </body>
 
 </html>
