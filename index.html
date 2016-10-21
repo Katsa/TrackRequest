@@ -1,64 +1,33 @@
+
 <!DOCTYPE html>
+<!-- Here the user could access the database of song titles
+    - List of all the song
+    - Search
+    - Sort by Artist
+    - Create playlist (unique to user,
+        and would check if that song exists in database)
+    - Add song to queue-->
 <html>
-<!-- Has current queue, and search box -->
     <head>
-    <title></title>
-      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <title></title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+
     </head>
     <body>
-        <body>
-            <<div class="navbar">
-              <div class="navbar-inner">
-                <a class="brand" href="#">TrackRequest</a>
-                <ul class="nav">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="music.html">Music</a></li>
-                  <li><a href="signup.html">Sign Up</a></li>
-                  <!-- Or we can do placeholder with name of user -->
-                  <li><a href="#">User</a></li>
-                </ul>
-              </div>
-            </div>
-
-        <div class="search-bar span4 ">
-            <form class="navbar-search pull-left">
-              <input type="text" class="search-query" placeholder="Search">
-            </form>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <a class="brand" href="index.html">TrackRequest</a>
+            <ul class="nav">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="music.html">Music</a></li>
+          </ul>
+          <ul class="nav pull-right">
+              <li><a href="login.html">Sign Up</a></li>
+              <!-- Or we can do placeholder with name of user
+              <li><a href="#">User</a></li> -->
+            </ul>
+          </div>
         </div>
-
-        <div class="">
-            <!-- padding -->
-        </div>
-
-
-        <div class="current-song-queue">
-            <table class="table table-striped span4 ">
-                <tr>
-                    <th>Song Name</th>
-                    <th>Artist</th>
-                    <th>Album</th>
-                    <th>Username</th>
-                </tr>
-
-                <tr><!-- input from server -->
-                    <td>Fatty Boom Boom</td>
-                    <td>Die Antwoord</td>
-                    <td> - </td>
-                    <td>@Katsa</td>
-
-                </tr>
-
-                <tr><!-- input from server -->
-                    <td>Three Little Birds</td>
-                    <td>Bob Marley</td>
-                    <td> - </td>
-                    <td>@Katsa</td>
-
-                </tr>
-            </table>
-        </div>
-
-
     </body>
-
 </html>

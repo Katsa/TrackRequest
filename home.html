@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<!-- Has current queue, and search box -->
+    <head>
+    <title>TrackRequest</title>
+
+      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" type="text/css">
+      <link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+    </head>
+    <body>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <a class="brand" href="index.html">TrackRequest</a>
+            <ul class="nav">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="music.html">Music</a></li>
+          </ul>
+          <ul class="nav pull-right">
+              <li><a href="login.html">Sign Up</a></li>
+              <!-- we can do placeholder with name of user
+              <li><a href="#">User</a></li>-->
+            </ul>
+          </div>
+        </div>
+
+        <div class="explore pull-right">
+            <div class="search-bar">
+                <form class="navbar-search">
+                  <input type="text" class="search-query" placeholder="Search for a song">
+                </form>
+            </div>
+            <div class="most-popular">
+                <h5>Most popular choices</h5>
+
+            </div>
+        </div>
+
+
+        <div class="current-song-queue" id="queue">
+            <table class="table">
+                <h3 class="title">Songs up next </h3>
+
+                <th>Song Name</th>
+                <th>Artist</th>
+                <th>Album</th>
+                <th>Username</th>
+
+                <tbody>
+                    <tr><!-- input from server -->
+                        <td>Fatty Boom Boom</td>
+                        <td><a href="https://www.google.com/search?q=die+antwoord&oq=die+an&aqs=chrome.0.0j69i57j69i59j69i64j0j69i61.1311j0j7&sourceid=chrome&ie=UTF-8">Die Antwoord</a></td>
+                        <td> - </td>
+                        <td>@Katsa</td>
+
+                    </tr>
+
+                    <tr><!-- input from server -->
+                        <td>Three Little Birds</td>
+                        <td><a href="https://www.google.com/search?q=die+antwoord&oq=die+an&aqs=chrome.0.0j69i57j69i59j69i64j0j69i61.1311j0j7&sourceid=chrome&ie=UTF-8#q=bob+marley">Bob Marley</a></td>
+                        <td> - </td>
+                        <td>@Katsa</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </body>
+
+</html>
