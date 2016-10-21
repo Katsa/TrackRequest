@@ -1,0 +1,16 @@
+
+.search-bar {
+    
+}
+.current-song-queue {
+    float: left;
+    width: 50%;
+
+}
+.table {
+    margin-left: 20px;
+    margin-right: 90px;
+}
+.title {
+    text-align: center;
+}
